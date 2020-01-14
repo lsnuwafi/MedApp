@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A5BEE3823B3FA140093DE1F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5BEE3723B3FA140093DE1F /* LoginVC.swift */; };
+		1A5BEE3A23B3FC4A0093DE1F /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5BEE3923B3FC4A0093DE1F /* LoginRequest.swift */; };
+		1A78B33923CD44A600A209C2 /* TipDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A78B33823CD44A600A209C2 /* TipDetailVC.swift */; };
+		1A9281C923A69BA000D31493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9281C823A69B9F00D31493 /* Main.storyboard */; };
+		1A9281D623A6AD7100D31493 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9281D523A6AD7100D31493 /* ViewController.swift */; };
+		1A9281DD23A6AD8600D31493 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9281D723A6AD8600D31493 /* MainVC.swift */; };
+		1A9281DE23A6AD8600D31493 /* AlarmPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9281D823A6AD8600D31493 /* AlarmPickerVC.swift */; };
+		1A9281DF23A6AD8600D31493 /* AlarmViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9281D923A6AD8600D31493 /* AlarmViewerVC.swift */; };
+		1A9281E023A6AD8600D31493 /* MemoVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9281DA23A6AD8600D31493 /* MemoVc.swift */; };
+		1A9281E123A6AD8600D31493 /* MedicineVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9281DB23A6AD8600D31493 /* MedicineVc.swift */; };
+		1A9281E223A6AD8600D31493 /* ReserveVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9281DC23A6AD8600D31493 /* ReserveVc.swift */; };
+		1A9281E923A6AE8600D31493 /* OTCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9281E423A6AE8600D31493 /* OTCCell.swift */; };
+		1A9281EA23A6AE8600D31493 /* AlarmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9281E523A6AE8600D31493 /* AlarmCell.swift */; };
+		1A9281EB23A6AE8600D31493 /* PMCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A9281E623A6AE8600D31493 /* PMCell.xib */; };
+		1A9281EC23A6AE8600D31493 /* OTCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A9281E723A6AE8600D31493 /* OTCCell.xib */; };
+		1A9281ED23A6AE8600D31493 /* AlarmCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A9281E823A6AE8600D31493 /* AlarmCell.xib */; };
+		1A9281F223A6AE9100D31493 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9281EF23A6AE9100D31493 /* Medicine.swift */; };
+		1A9281F323A6AE9100D31493 /* MedicineNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9281F023A6AE9100D31493 /* MedicineNotice.swift */; };
+		1A9281F423A6AE9100D31493 /* FMed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9281F123A6AE9100D31493 /* FMed.swift */; };
+		1A9281F923A6AEAB00D31493 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9281F723A6AEAB00D31493 /* Request.swift */; };
+		1AA61D2023AC0A9500BD79FC /* TipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA61D1F23AC0A9500BD79FC /* TipVC.swift */; };
+		1AC06C3A23A69A5000577E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC06C3923A69A5000577E31 /* AppDelegate.swift */; };
+		1AC06C3C23A69A5000577E31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC06C3B23A69A5000577E31 /* SceneDelegate.swift */; };
+		1AC06C4423A69A5000577E31 /* MedApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AC06C4223A69A5000577E31 /* MedApp.xcdatamodeld */; };
+		1AC06C4623A69A5100577E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC06C4523A69A5100577E31 /* Assets.xcassets */; };
+		1AC06C5123A69AEE00577E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC06C5023A69AEE00577E31 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A5BEE3723B3FA140093DE1F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		1A5BEE3923B3FC4A0093DE1F /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		1A78B33823CD44A600A209C2 /* TipDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipDetailVC.swift; sourceTree = "<group>"; };
+		1A9281C823A69B9F00D31493 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1A9281D523A6AD7100D31493 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A9281D723A6AD8600D31493 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		1A9281D823A6AD8600D31493 /* AlarmPickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmPickerVC.swift; sourceTree = "<group>"; };
+		1A9281D923A6AD8600D31493 /* AlarmViewerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmViewerVC.swift; sourceTree = "<group>"; };
+		1A9281DA23A6AD8600D31493 /* MemoVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoVc.swift; sourceTree = "<group>"; };
+		1A9281DB23A6AD8600D31493 /* MedicineVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineVc.swift; sourceTree = "<group>"; };
+		1A9281DC23A6AD8600D31493 /* ReserveVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReserveVc.swift; sourceTree = "<group>"; };
+		1A9281E423A6AE8600D31493 /* OTCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTCCell.swift; sourceTree = "<group>"; };
+		1A9281E523A6AE8600D31493 /* AlarmCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmCell.swift; sourceTree = "<group>"; };
+		1A9281E623A6AE8600D31493 /* PMCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PMCell.xib; sourceTree = "<group>"; };
+		1A9281E723A6AE8600D31493 /* OTCCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OTCCell.xib; sourceTree = "<group>"; };
+		1A9281E823A6AE8600D31493 /* AlarmCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlarmCell.xib; sourceTree = "<group>"; };
+		1A9281EF23A6AE9100D31493 /* Medicine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		1A9281F023A6AE9100D31493 /* MedicineNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineNotice.swift; sourceTree = "<group>"; };
+		1A9281F123A6AE9100D31493 /* FMed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMed.swift; sourceTree = "<group>"; };
+		1A9281F723A6AEAB00D31493 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		1AA61D1F23AC0A9500BD79FC /* TipVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipVC.swift; sourceTree = "<group>"; };
+		1AC06C3623A69A5000577E31 /* MedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC06C3923A69A5000577E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AC06C3B23A69A5000577E31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1AC06C4323A69A5000577E31 /* MedApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedApp.xcdatamodel; sourceTree = "<group>"; };
+		1AC06C4523A69A5100577E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AC06C4A23A69A5200577E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AC06C5023A69AEE00577E31 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AC06C3323A69A5000577E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A9281D423A6AD3C00D31493 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A9281D523A6AD7100D31493 /* ViewController.swift */,
+				1A9281D823A6AD8600D31493 /* AlarmPickerVC.swift */,
+				1A9281D923A6AD8600D31493 /* AlarmViewerVC.swift */,
+				1A5BEE3723B3FA140093DE1F /* LoginVC.swift */,
+				1A9281D723A6AD8600D31493 /* MainVC.swift */,
+				1AA61D1F23AC0A9500BD79FC /* TipVC.swift */,
+				1A78B33823CD44A600A209C2 /* TipDetailVC.swift */,
+				1A9281DB23A6AD8600D31493 /* MedicineVc.swift */,
+				1A9281DA23A6AD8600D31493 /* MemoVc.swift */,
+				1A9281DC23A6AD8600D31493 /* ReserveVc.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1A9281E323A6AE8600D31493 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1A9281E423A6AE8600D31493 /* OTCCell.swift */,
+				1A9281E523A6AE8600D31493 /* AlarmCell.swift */,
+				1A9281E623A6AE8600D31493 /* PMCell.xib */,
+				1A9281E823A6AE8600D31493 /* AlarmCell.xib */,
+				1A9281E723A6AE8600D31493 /* OTCCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1A9281EE23A6AE9100D31493 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A9281EF23A6AE9100D31493 /* Medicine.swift */,
+				1A9281F023A6AE9100D31493 /* MedicineNotice.swift */,
+				1A9281F123A6AE9100D31493 /* FMed.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A9281F523A6AEAB00D31493 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				1A9281F723A6AEAB00D31493 /* Request.swift */,
+				1A5BEE3923B3FC4A0093DE1F /* LoginRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		1AC06C2D23A69A5000577E31 = {
+			isa = PBXGroup;
+			children = (
+				1AC06C3823A69A5000577E31 /* MedApp */,
+				1AC06C3723A69A5000577E31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AC06C3723A69A5000577E31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AC06C3623A69A5000577E31 /* MedApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AC06C3823A69A5000577E31 /* MedApp */ = {
+			isa = PBXGroup;
+			children = (
+				1AC06C3923A69A5000577E31 /* AppDelegate.swift */,
+				1AC06C3B23A69A5000577E31 /* SceneDelegate.swift */,
+				1A9281F523A6AEAB00D31493 /* Request */,
+				1A9281EE23A6AE9100D31493 /* Model */,
+				1A9281E323A6AE8600D31493 /* Cells */,
+				1A9281D423A6AD3C00D31493 /* Controllers */,
+				1A9281C823A69B9F00D31493 /* Main.storyboard */,
+				1AC06C5023A69AEE00577E31 /* LaunchScreen.storyboard */,
+				1AC06C4523A69A5100577E31 /* Assets.xcassets */,
+				1AC06C4A23A69A5200577E31 /* Info.plist */,
+				1AC06C4223A69A5000577E31 /* MedApp.xcdatamodeld */,
+			);
+			path = MedApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AC06C3523A69A5000577E31 /* MedApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC06C4D23A69A5200577E31 /* Build configuration list for PBXNativeTarget "MedApp" */;
+			buildPhases = (
+				1AC06C3223A69A5000577E31 /* Sources */,
+				1AC06C3323A69A5000577E31 /* Frameworks */,
+				1AC06C3423A69A5000577E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedApp;
+			productName = MedApp;
+			productReference = 1AC06C3623A69A5000577E31 /* MedApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AC06C2E23A69A5000577E31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = user157383;
+				TargetAttributes = {
+					1AC06C3523A69A5000577E31 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 1AC06C3123A69A5000577E31 /* Build configuration list for PBXProject "MedApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AC06C2D23A69A5000577E31;
+			productRefGroup = 1AC06C3723A69A5000577E31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AC06C3523A69A5000577E31 /* MedApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AC06C3423A69A5000577E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9281EC23A6AE8600D31493 /* OTCCell.xib in Resources */,
+				1A9281ED23A6AE8600D31493 /* AlarmCell.xib in Resources */,
+				1A9281EB23A6AE8600D31493 /* PMCell.xib in Resources */,
+				1AC06C5123A69AEE00577E31 /* LaunchScreen.storyboard in Resources */,
+				1AC06C4623A69A5100577E31 /* Assets.xcassets in Resources */,
+				1A9281C923A69BA000D31493 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AC06C3223A69A5000577E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9281D623A6AD7100D31493 /* ViewController.swift in Sources */,
+				1A9281F223A6AE9100D31493 /* Medicine.swift in Sources */,
+				1A5BEE3A23B3FC4A0093DE1F /* LoginRequest.swift in Sources */,
+				1AA61D2023AC0A9500BD79FC /* TipVC.swift in Sources */,
+				1A9281DD23A6AD8600D31493 /* MainVC.swift in Sources */,
+				1AC06C3A23A69A5000577E31 /* AppDelegate.swift in Sources */,
+				1A9281F423A6AE9100D31493 /* FMed.swift in Sources */,
+				1A9281E123A6AD8600D31493 /* MedicineVc.swift in Sources */,
+				1A9281F923A6AEAB00D31493 /* Request.swift in Sources */,
+				1A78B33923CD44A600A209C2 /* TipDetailVC.swift in Sources */,
+				1A9281E023A6AD8600D31493 /* MemoVc.swift in Sources */,
+				1AC06C4423A69A5000577E31 /* MedApp.xcdatamodeld in Sources */,
+				1AC06C3C23A69A5000577E31 /* SceneDelegate.swift in Sources */,
+				1A9281DF23A6AD8600D31493 /* AlarmViewerVC.swift in Sources */,
+				1A9281E923A6AE8600D31493 /* OTCCell.swift in Sources */,
+				1A9281DE23A6AD8600D31493 /* AlarmPickerVC.swift in Sources */,
+				1A5BEE3823B3FA140093DE1F /* LoginVC.swift in Sources */,
+				1A9281F323A6AE9100D31493 /* MedicineNotice.swift in Sources */,
+				1A9281E223A6AD8600D31493 /* ReserveVc.swift in Sources */,
+				1A9281EA23A6AE8600D31493 /* AlarmCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1AC06C4B23A69A5200577E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AC06C4C23A69A5200577E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AC06C4E23A69A5200577E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MedApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MedApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AC06C4F23A69A5200577E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MedApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MedApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AC06C3123A69A5000577E31 /* Build configuration list for PBXProject "MedApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC06C4B23A69A5200577E31 /* Debug */,
+				1AC06C4C23A69A5200577E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC06C4D23A69A5200577E31 /* Build configuration list for PBXNativeTarget "MedApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC06C4E23A69A5200577E31 /* Debug */,
+				1AC06C4F23A69A5200577E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1AC06C4223A69A5000577E31 /* MedApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1AC06C4323A69A5000577E31 /* MedApp.xcdatamodel */,
+			);
+			currentVersion = 1AC06C4323A69A5000577E31 /* MedApp.xcdatamodel */;
+			path = MedApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1AC06C2E23A69A5000577E31 /* Project object */;
+}
